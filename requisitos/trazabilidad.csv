@@ -1,0 +1,9 @@
+Requisito,Historia,Caso_Uso,Diseño,Codigo,Prueba
+RF-02,US-01,CU-01,DS-01,sistema.html: vistaAuth(),TC-02
+RF-03,US-02,CU-02,DS-02,"sistema.html: cargarPerfil(), nav(); schema.sql",TC-03
+RF-04,US-03,CU-03,DS-03,sistema.html: vistaPanel(); index.html: envio,TC-04
+RF-07,US-04,CU-04,DS-04,"sistema.html: vistaRevision(), bajar()",TC-05
+RF-13,US-05,CU-05,DS-05,sistema.html: vistaPublica(); index.html: render(),TC-06
+RNF-01,US-06,Transversal,DS-06,Mensajes de estado en index.html y sistema.html,TC-07
+RNF-04,US-07,Transversal,DS-07,schema.sql (15 politicas RLS); esc(),TC-08
+RNF-07,US-08,Transversal,DS-08,Despliegue estatico en Netlify,TC-09
